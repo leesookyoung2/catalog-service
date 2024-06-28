@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: catalog-service
-          image: 1004sklee/catalog-service:0.1
+          image: ghcr.io/leesookyoung2/catalog-service:latest
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
